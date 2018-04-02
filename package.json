@@ -1,0 +1,16 @@
+{
+  "name": "brain.js-material-detector",
+  "version": "1.0.0",
+  "author": {
+    "name": "Sam Hoult"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "brain.js": "^1.1.2"
+  },
+  "description": "Using a simple data set of the google material-ui of whether the rgb is light or dark"
+}
