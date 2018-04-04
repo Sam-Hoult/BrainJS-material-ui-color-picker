@@ -13,4 +13,4 @@ const convertedHex = hexToRGB(hex)
 const input = { r: 1, g: 0.4, b: 0 }
 
 console.log('Output: ', Brain.likely(input, net))
-console.log('Hex output: ', Brain.likely(input, net))
+console.log('Hex output: ', Brain.likely(convertedHex, net))
